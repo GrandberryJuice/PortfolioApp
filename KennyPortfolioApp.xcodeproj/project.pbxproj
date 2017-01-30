@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C77C319C1E3FC88D00BED12F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C319B1E3FC88D00BED12F /* AppDelegate.swift */; };
+		C77C319E1E3FC88D00BED12F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C319D1E3FC88D00BED12F /* ViewController.swift */; };
+		C77C31A11E3FC88D00BED12F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77C319F1E3FC88D00BED12F /* Main.storyboard */; };
+		C77C31A31E3FC88D00BED12F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77C31A21E3FC88D00BED12F /* Assets.xcassets */; };
+		C77C31A61E3FC88D00BED12F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77C31A41E3FC88D00BED12F /* LaunchScreen.storyboard */; };
+		C77C31B11E3FC88E00BED12F /* KennyPortfolioAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77C31B01E3FC88E00BED12F /* KennyPortfolioAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C77C31AD1E3FC88E00BED12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C77C31901E3FC88D00BED12F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C77C31971E3FC88D00BED12F;
+			remoteInfo = KennyPortfolioApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C77C31981E3FC88D00BED12F /* KennyPortfolioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KennyPortfolioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77C319B1E3FC88D00BED12F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C77C319D1E3FC88D00BED12F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C77C31A01E3FC88D00BED12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C77C31A21E3FC88D00BED12F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C77C31A51E3FC88D00BED12F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C77C31A71E3FC88D00BED12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C77C31AC1E3FC88E00BED12F /* KennyPortfolioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KennyPortfolioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77C31B01E3FC88E00BED12F /* KennyPortfolioAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KennyPortfolioAppTests.swift; sourceTree = "<group>"; };
+		C77C31B21E3FC88E00BED12F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77C31951E3FC88D00BED12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77C31A91E3FC88E00BED12F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77C318F1E3FC88D00BED12F = {
+			isa = PBXGroup;
+			children = (
+				C77C319A1E3FC88D00BED12F /* KennyPortfolioApp */,
+				C77C31AF1E3FC88E00BED12F /* KennyPortfolioAppTests */,
+				C77C31991E3FC88D00BED12F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77C31991E3FC88D00BED12F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77C31981E3FC88D00BED12F /* KennyPortfolioApp.app */,
+				C77C31AC1E3FC88E00BED12F /* KennyPortfolioAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77C319A1E3FC88D00BED12F /* KennyPortfolioApp */ = {
+			isa = PBXGroup;
+			children = (
+				C77C319B1E3FC88D00BED12F /* AppDelegate.swift */,
+				C77C319D1E3FC88D00BED12F /* ViewController.swift */,
+				C77C319F1E3FC88D00BED12F /* Main.storyboard */,
+				C77C31A21E3FC88D00BED12F /* Assets.xcassets */,
+				C77C31A41E3FC88D00BED12F /* LaunchScreen.storyboard */,
+				C77C31A71E3FC88D00BED12F /* Info.plist */,
+			);
+			path = KennyPortfolioApp;
+			sourceTree = "<group>";
+		};
+		C77C31AF1E3FC88E00BED12F /* KennyPortfolioAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C77C31B01E3FC88E00BED12F /* KennyPortfolioAppTests.swift */,
+				C77C31B21E3FC88E00BED12F /* Info.plist */,
+			);
+			path = KennyPortfolioAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77C31971E3FC88D00BED12F /* KennyPortfolioApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77C31B51E3FC88E00BED12F /* Build configuration list for PBXNativeTarget "KennyPortfolioApp" */;
+			buildPhases = (
+				C77C31941E3FC88D00BED12F /* Sources */,
+				C77C31951E3FC88D00BED12F /* Frameworks */,
+				C77C31961E3FC88D00BED12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KennyPortfolioApp;
+			productName = KennyPortfolioApp;
+			productReference = C77C31981E3FC88D00BED12F /* KennyPortfolioApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C77C31AB1E3FC88E00BED12F /* KennyPortfolioAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77C31B81E3FC88E00BED12F /* Build configuration list for PBXNativeTarget "KennyPortfolioAppTests" */;
+			buildPhases = (
+				C77C31A81E3FC88E00BED12F /* Sources */,
+				C77C31A91E3FC88E00BED12F /* Frameworks */,
+				C77C31AA1E3FC88E00BED12F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C77C31AE1E3FC88E00BED12F /* PBXTargetDependency */,
+			);
+			name = KennyPortfolioAppTests;
+			productName = KennyPortfolioAppTests;
+			productReference = C77C31AC1E3FC88E00BED12F /* KennyPortfolioAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77C31901E3FC88D00BED12F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "KENNETH GRANDBERRY";
+				TargetAttributes = {
+					C77C31971E3FC88D00BED12F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JDJW8889MB;
+						ProvisioningStyle = Automatic;
+					};
+					C77C31AB1E3FC88E00BED12F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = JDJW8889MB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C77C31971E3FC88D00BED12F;
+					};
+				};
+			};
+			buildConfigurationList = C77C31931E3FC88D00BED12F /* Build configuration list for PBXProject "KennyPortfolioApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C77C318F1E3FC88D00BED12F;
+			productRefGroup = C77C31991E3FC88D00BED12F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77C31971E3FC88D00BED12F /* KennyPortfolioApp */,
+				C77C31AB1E3FC88E00BED12F /* KennyPortfolioAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77C31961E3FC88D00BED12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77C31A61E3FC88D00BED12F /* LaunchScreen.storyboard in Resources */,
+				C77C31A31E3FC88D00BED12F /* Assets.xcassets in Resources */,
+				C77C31A11E3FC88D00BED12F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77C31AA1E3FC88E00BED12F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77C31941E3FC88D00BED12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77C319E1E3FC88D00BED12F /* ViewController.swift in Sources */,
+				C77C319C1E3FC88D00BED12F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C77C31A81E3FC88E00BED12F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77C31B11E3FC88E00BED12F /* KennyPortfolioAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C77C31AE1E3FC88E00BED12F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C77C31971E3FC88D00BED12F /* KennyPortfolioApp */;
+			targetProxy = C77C31AD1E3FC88E00BED12F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C77C319F1E3FC88D00BED12F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77C31A01E3FC88D00BED12F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C77C31A41E3FC88D00BED12F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77C31A51E3FC88D00BED12F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77C31B31E3FC88E00BED12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C77C31B41E3FC88E00BED12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77C31B61E3FC88E00BED12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JDJW8889MB;
+				INFOPLIST_FILE = KennyPortfolioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nerdinabriefcase.KennyPortfolioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C77C31B71E3FC88E00BED12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JDJW8889MB;
+				INFOPLIST_FILE = KennyPortfolioApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nerdinabriefcase.KennyPortfolioApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C77C31B91E3FC88E00BED12F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JDJW8889MB;
+				INFOPLIST_FILE = KennyPortfolioAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nerdinabriefcase.KennyPortfolioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KennyPortfolioApp.app/KennyPortfolioApp";
+			};
+			name = Debug;
+		};
+		C77C31BA1E3FC88E00BED12F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JDJW8889MB;
+				INFOPLIST_FILE = KennyPortfolioAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nerdinabriefcase.KennyPortfolioAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KennyPortfolioApp.app/KennyPortfolioApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77C31931E3FC88D00BED12F /* Build configuration list for PBXProject "KennyPortfolioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77C31B31E3FC88E00BED12F /* Debug */,
+				C77C31B41E3FC88E00BED12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77C31B51E3FC88E00BED12F /* Build configuration list for PBXNativeTarget "KennyPortfolioApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77C31B61E3FC88E00BED12F /* Debug */,
+				C77C31B71E3FC88E00BED12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C77C31B81E3FC88E00BED12F /* Build configuration list for PBXNativeTarget "KennyPortfolioAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77C31B91E3FC88E00BED12F /* Debug */,
+				C77C31BA1E3FC88E00BED12F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C77C31901E3FC88D00BED12F /* Project object */;
+}
